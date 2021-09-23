@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  //display: flex;
+  //justify-content: center;
+  //align-items: flex-end;
+  font-size: 15px;
+  font-family: $fontfamily-title;
+  text-transform: uppercase;
+  //background-image: url(../images/header2.jpg);
+  //background-repeat: repeat;
+
+  @media all and(min-width: 550px) {
+    height: 150px;
+    font-size: 20px;
+  }
+
+  @media all and(min-width: 750px) {
+    height: 150px;
+    font-size: 30px;
+  }
+
+  @media all and(min-width: 980px) {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  display: none;
+  @media all and(min-width: 550px) {
+    background-color:#000205;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    color: white;
+    font-family:'Jost', sans-serif;
+
+    .small {
+      margin-left: 15px;
+    }
+
+    .social {
+      margin-right: 15px;
+
+      .sm-link {
+        color: #e39bbc;        
+        margin-right: 10px;
+        font-size: 25px;
+
+      }
+    }
+  }
+}
