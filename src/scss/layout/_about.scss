@@ -1,0 +1,29 @@
+.about {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/yellowback.jpg);
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 240px;
+        margin-top: 50px;
+        border: solid black 3px;
+        border-radius: 22px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 20px;
+
+        &__pic {
+            width: 150px;
+            margin-bottom: 20px;
+
+        }
+
+
+
+
+    }
+}
