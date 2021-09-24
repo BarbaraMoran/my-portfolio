@@ -57,17 +57,12 @@
 
             @media all and(min-width: 400px) {
                 width: 180px;
-         
                }
     
             @media all and(min-width: 550px) {
                 width: 200px;
               }
     
-              @media all and(min-width: 750px) {
-                width: 250px;
-              }
-            
               @media all and(min-width: 980px) {
                 width: 350px;
                 margin-bottom: 40px;
@@ -76,9 +71,7 @@
               @media all and(min-width: 1200px) {
                 margin-right: 50px;
                 margin-bottom: 0px;
-
               }
-
         }
 
         &__title {
@@ -86,9 +79,25 @@
             text-align: center;
         }
 
+        .list-item {
+            margin-bottom: 15px;
+            text-align: center;
+        }
 
+        .tech-list {
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
 
+            @media all and(min-width: 980px) {
+            font-size: 60px;
+            gap: 50px;
 
+            }
+            
+      }
 
 
     }
