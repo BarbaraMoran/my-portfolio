@@ -1,8 +1,11 @@
 .about {
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-image: url(../images/yellowback.jpg);
+
     .about-container {
         display: flex;
         flex-direction: column;
@@ -11,7 +14,6 @@
         background-color: rgb(187, 206, 240);
         width: 240px;
         margin-top: 50px;
-        //border: solid black 2px;
         border-left: solid black 5px;
         border-bottom: solid black 5px;
         font-size: 18px;
@@ -21,12 +23,10 @@
 
         @media all and(min-width: 400px) {
             width: 300px;
-     
            }
 
         @media all and(min-width: 550px) {
             width: 400px;
-         
           }
 
           @media all and(min-width: 750px) {
@@ -34,8 +34,6 @@
             width: 600px;
             font-size: 25px;
             padding: 40px;
-
-
           }
         
           @media all and(min-width: 980px) {
@@ -45,16 +43,16 @@
 
           @media all and(min-width: 1200px) {
             flex-direction: row;
+            justify-content: start;
             width: 1000px;
-
-
           }
 
 
 
         &__pic {
             width: 150px;
-            padding: 20px 0px;
+            border-radius: 50%;
+           margin-bottom: 20px;
             
 
             @media all and(min-width: 400px) {
@@ -64,19 +62,21 @@
     
             @media all and(min-width: 550px) {
                 width: 200px;
-             
               }
     
               @media all and(min-width: 750px) {
                 width: 250px;
-               
-    
               }
             
               @media all and(min-width: 980px) {
-                width: 300px;
-                padding-right: 40px;
-               
+                width: 350px;
+                margin-bottom: 40px;
+              }
+
+              @media all and(min-width: 1200px) {
+                margin-right: 50px;
+                margin-bottom: 0px;
+
               }
 
         }
@@ -85,6 +85,8 @@
             margin-bottom: 20px;
             text-align: center;
         }
+
+
 
 
 
