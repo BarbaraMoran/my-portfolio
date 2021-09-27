@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../images/yellowback.jpg);
 
     .about-container {
         display: flex;
@@ -43,7 +42,6 @@
 
           @media all and(min-width: 1200px) {
             flex-direction: row;
-            justify-content: start;
             width: 1000px;
           }
 
@@ -88,14 +86,22 @@
             font-size: 50px;
             display: flex;
             justify-content: center;
+            align-items: center;
             flex-wrap: wrap;
-            gap: 30px;
 
             @media all and(min-width: 980px) {
             font-size: 60px;
-            gap: 50px;
-
             }
+
+            .tech-item {
+              margin: 10px;
+
+              @media all and(min-width: 980px) {
+                margin: 20px
+                }
+            }
+
+            
             
       }
 
