@@ -52,10 +52,13 @@
      }
    }
 
-   .nav-main-button:hover{
-    transform: scale(90%);
-    cursor: pointer;
+   .nav-main-button:active {
+    transform: scale(80%);
     }
+
+  .nav-main-button:hover {
+    cursor: pointer;
+  }
    
 
    .links-list {
@@ -113,6 +116,7 @@
      
      .nav-link {
        color: black;
+   
      }
 
    }
