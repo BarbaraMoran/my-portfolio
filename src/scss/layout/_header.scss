@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  border-bottom: black solid 40px;
 
   .nav-container {
   position: absolute;
@@ -22,7 +23,7 @@
      width: 40px;
      height: 40px;
      background-color: rgb(135, 185, 238);
-     box-shadow: 2px 2px 10px #666;
+     //box-shadow: 2px 2px 10px #666;
      border-left: solid black;
      border-bottom: solid black;
      border-top: none;
@@ -155,7 +156,7 @@
     background-color: #fe4036;
     border-bottom: solid black 8px;
     border-left: solid black 8px;
-    box-shadow: 2px 2px 10px #666;
+    box-shadow: 1px 1px 5px rgb(173, 173, 173);
 
    @media all and(min-width: 400px) {
     width: 290px;

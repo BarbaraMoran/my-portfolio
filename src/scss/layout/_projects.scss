@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/blue-background.jpg);
+    //background-repeat: repeat;
+
+
 }
 
 .projects-container {
@@ -12,9 +16,11 @@
     margin-top: 50px;
     border-left: solid black 5px;
     border-bottom: solid black 5px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 22px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: quicksand, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     padding: 20px;
 
     @media all and(min-width: 400px) {
@@ -28,12 +34,12 @@
     @media all and(min-width: 750px) {
         margin-top: 100px;
         width: 600px;
-        font-size: 25px;
+        font-size: 20px;
         padding: 40px;
     }
         
     @media all and(min-width: 980px) {
-        font-size: 30px;
+        font-size: 22px;
         width: 800px;
     }
 

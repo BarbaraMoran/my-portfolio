@@ -13,3 +13,4 @@ function handleButton(event) {
 }
 
 burgerEl.addEventListener("click", handleButton);
+

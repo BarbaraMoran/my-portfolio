@@ -4,8 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/yellowback.jpg);
+    background-repeat: repeat;
+    border-bottom: black solid 40px;
 
-    
+
 
     .about-container {
         display: flex;
@@ -18,6 +21,7 @@
         border-left: solid black 5px;
         border-bottom: solid black 5px;
         font-size: 18px;
+        line-height: 1.1em;
         border-radius: 22px;
         font-family: 'Josefin Sans', sans-serif;
         padding: 20px;
@@ -64,7 +68,7 @@
               }
     
               @media all and(min-width: 980px) {
-                width: 350px;
+                width: 300px;
                 margin-bottom: 40px;
               }
 
